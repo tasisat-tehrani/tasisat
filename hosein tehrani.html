@@ -1,0 +1,405 @@
+<html>
+
+<head>
+    <title>تاسیسات حسین تهرانی</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .font {
+            margin-left: 160px;
+            font-size: 20px;
+            /* Increased text to enable scrolling */
+            padding: 0px 10px;
+            text-align: right;
+        }
+        /* Style the body */
+        
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+        /* hashie samte chap */
+        
+        .header {
+            padding: 60px;
+            text-align: center;
+            background-image: url("https://uupload.ir/files/o44g_pool-water-background.jpg");
+            color: rgb(8, 8, 8);
+        }
+        /* navar dastrasi ha */
+        
+        .navbar {
+            display: flex;
+            background-color: black;
+        }
+        /* Style the navigation bar links */
+        
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        /* Change color on hover */
+        
+        .navbar a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+        /* Column container */
+        
+        .active {
+            background-color: #4CAF50;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* Create two unequal columns that sits next to each other */
+        /* hashie asli */
+        
+        .side {
+            flex: 30%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        /* hashie asli */
+        
+        .main {
+            flex: 70%;
+            background-image: url('https://uupload.ir/files/2met_webp.net-resizeimage_(1).jpg');
+            background-repeat: no-repeat;
+            padding: 10px;
+        }
+        /* hashie pain */
+        
+        .footer {
+            padding: 20px;
+            background: #ddd;
+            background-image: url("https://uupload.ir/files/fwig_20201024_204804.png");
+            background-size: 170px 150px;
+            background-repeat: no-repeat;
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        /* Position the image container (needed to position the left and right arrows) */
+        
+        .container {
+            position: relative;
+        }
+        /* Hide the images by default */
+        
+        .mySlides {
+            display: none;
+        }
+        /* Add a pointer when hovering over the thumbnail images */
+        
+        .cursor {
+            cursor: pointer;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Number text (1/3 etc) */
+        
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        /* Container for image text */
+        
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Six columns side by side */
+        
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+        /* Add a transparency effect for thumnbail images */
+        
+        .demo {
+            opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+        
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>شرکت تاسیساتی حسین تهرانی</h1>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a class="active" href="#c1">تصاویر</a>
+        <a href="#c2">نشانی</a>
+        <a href="#c3">تماس با ما</a>
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="row">
+        <div class="side">
+            <img src="https://uupload.ir/files/fwig_20201024_204804.png" alt="logo" width="300" height="300">
+            <h1 style="text-align:center;"> شرکت تاسیساتی حسین تهرانی با بیش از ۳۰ سال سابقه کاری</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.8463140032045!2d51.12869741528101!3d36.48542788001458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDI5JzA3LjUiTiA1McKwMDcnNTEuMiJF!5e0!3m2!1sen!2s!4v1604490647164!5m2!1sen!2s"
+                width="350" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="main">
+            <h2 style="text-align:right;">شرکت تاسیساتی حسین تهرانی</h2>
+            <pre class="font"> این شرکت با بیش از ۳۰ سال سابقه کاری در زمینه تاسیسات
+             .حرارت مرکزی و استخر در استان تهران و مازندران فعالیت نموده
+.شرکت تاسیسات حسین تهرانی کلیه اجرا های خود را تا ۲۰ ماه ضمانت نموده
+.کلیه استاد کاران این مجموعه دارای مدرک از سازمان فنی و حرفه ای میباشند
+تمامی استاد کاران این مجموعه دارنده گواهینامه کسب مهارت در زمینه
+.تاسیسات حرارت مرکزی هستند
+با استفاد از جدید ترین متریال تاسیسات این شرکت به اجرایی
+.در ضمینه ساختمان های صنعتی،تجاری و مسکونی فعالیت دارد
+:اجرایات شرکت عبارت اند از
+طراحی نقشه های تاسیساتی
+نظارت بر امور تاسیسات مجموعه شرکت ها و هتل ها
+تامین و نگهداری از مجموعه ها
+اجرا در کل زمینه های تاسیسات
+پیمانکاری
+تاسیسات استخر و سونا
+تاسیسات جکوزی
+نصب متور خانه
+نصب تصفیه خانه
+اجرای سیستم های خنک کننده
+pvc لوله کشی سرد و گرم با استفاده از لوله های پایپکس و نیو پاپ و
+pvc لوله کشی فاضلاب با لوله های پلی اتیلن و پشت فیت و
+لوله کشی گرمایش از کف
+شوفاژ
+نصاب مجاز والهنگ
+فاضلاب فول ونت
+.را اجرا میکند
+            </pre>
+
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 14</div>
+                    <img src="https://uupload.ir/files/f6tm_whatsapp_image_2020-10-17_at_20.36.39.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 14</div>
+                    <img src="https://uupload.ir/files/aqa9_whatsapp_image_2020-10-17_at_20.37.20.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 14</div>
+                    <img src="https://uupload.ir/files/12x8_whatsapp_image_2020-10-17_at_20.37.57.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 14</div>
+                    <img src="https://uupload.ir/files/wtrh_whatsapp_image_2020-10-17_at_20.37.58.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 14</div>
+                    <img src="https://uupload.ir/files/gwf0_whatsapp_image_2020-10-17_at_20.38.54_(1).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 14</div>
+                    <img src="https://uupload.ir/files/jw3i_whatsapp_image_2020-10-17_at_20.38.54.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 14</div>
+                    <img src="https://uupload.ir/files/tkhb_whatsapp_image_2020-10-17_at_20.38.55_(1).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 14</div>
+                    <img src="https://uupload.ir/files/m9jr_whatsapp_image_2020-10-17_at_20.38.55.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 14</div>
+                    <img src="https://uupload.ir/files/guhv_whatsapp_image_2020-10-17_at_20.38.56.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 14</div>
+                    <img src="https://uupload.ir/files/ej9w_whatsapp_image_2020-10-17_at_20.38.57.jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 14</div>
+                    <img src="https://uupload.ir/files/d1ea_whatsapp_image_2020-10-17_at_22.39.03_(1).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 14</div>
+                    <img src="https://uupload.ir/files/1f5_whatsapp_image_2020-10-17_at_22.39.03_(2).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">13 / 14</div>
+                    <img src="https://uupload.ir/files/2lh2_whatsapp_image_2020-10-17_at_22.39.04_(1).jpeg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">14 / 14</div>
+                    <img src="https://uupload.ir/files/attn_whatsapp_image_2020-10-17_at_22.39.04.jpeg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <div class="row">
+                    <div id="c1" class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/f6tm_whatsapp_image_2020-10-17_at_20.36.39.jpeg" style="width:100%" onclick="currentSlide(1)" alt="استخر">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/aqa9_whatsapp_image_2020-10-17_at_20.37.20.jpeg" style="width:100%" onclick="currentSlide(2)" alt="لول کشی آشپزخانه">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/12x8_whatsapp_image_2020-10-17_at_20.37.57.jpeg" style="width:100%" onclick="currentSlide(3)" alt="لوله کشی استخر">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/wtrh_whatsapp_image_2020-10-17_at_20.37.58.jpeg" style="width:100%" onclick="currentSlide(4)" alt="لوله کشی گرم و سرد">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/gwf0_whatsapp_image_2020-10-17_at_20.38.54_(1).jpeg" style="width:100%" onclick="currentSlide(5)" alt="استخر">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/jw3i_whatsapp_image_2020-10-17_at_20.38.54.jpeg" style="width:100%" onclick="currentSlide(6)" alt="استخر">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/tkhb_whatsapp_image_2020-10-17_at_20.38.55_(1).jpeg" style="width:100%" onclick="currentSlide(7)" alt="کف گرمایشی">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/m9jr_whatsapp_image_2020-10-17_at_20.38.55.jpeg" style="width:100%" onclick="currentSlide(8)" alt="استخر">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/guhv_whatsapp_image_2020-10-17_at_20.38.56.jpeg" style="width:100%" onclick="currentSlide(9)" alt="متور خانه">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/ej9w_whatsapp_image_2020-10-17_at_20.38.57.jpeg" style="width:100%" onclick="currentSlide(10)" alt="متور خانه">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/d1ea_whatsapp_image_2020-10-17_at_22.39.03_(1).jpeg" style="width:100%" onclick="currentSlide(11)" alt="لوله کشی استخر">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/1f5_whatsapp_image_2020-10-17_at_22.39.03_(2).jpeg" style="width:100%" onclick="currentSlide(12)" alt="لوله کشی جکوزی">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/2lh2_whatsapp_image_2020-10-17_at_22.39.04_(1).jpeg" style="width:100%" onclick="currentSlide(13)" alt="لوله کشی سرویس">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://uupload.ir/files/attn_whatsapp_image_2020-10-17_at_22.39.04.jpeg" style="width:100%" onclick="currentSlide(14)" alt="لوله کشی استخر">
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("demo");
+                    var captionText = document.getElementById("caption");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = slides.length
+                    }
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    captionText.innerHTML = dots[slideIndex - 1].alt;
+                }
+            </script>
+
+            <!-- Footer -->
+            <div class="footer">
+                <h2 id="c2" style="text-align:center;">آدرس :مازندران-شهرستان کلاردشت-رودبارک۵۰متر بعد از پل</h2>
+                <h4 id="c3" style="text-align:center;">شماره تماس :۰۹۱۱۹۹۱۷۶۷۰ , ۰۹۳۰۸۱۰۷۶۷۰ , ۰۹۱۲۷۹۸۶۴۸۷</h4>
+            </div>
+
+</body>
+
+</html>
